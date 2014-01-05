@@ -78,7 +78,7 @@ function setValue(x,y,v){
     turnRed(e);
     return e.innerHTML;
 }
-function turnRed(elem){
+function turnSkyblue(elem){
     elem.style.backgroundColor = 'skyblue';
     window.setTimeout(function(){
 	elem.style.backgroundColor = 'white';
